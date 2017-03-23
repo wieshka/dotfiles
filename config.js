@@ -3,6 +3,8 @@ module.exports = {
     // http://conqueringthecommandline.com/book/ack_ag
     'ack',
     'ag',
+    'awscli',
+    '',
     // Install GNU core utilities (those that come with OS X are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     'coreutils',
@@ -44,7 +46,7 @@ module.exports = {
   cask: [
     //'adium',
     //'amazon-cloud-drive',
-    //'atom',
+    'atom',
     // 'box-sync',
     //'comicbooklover',
     //'diffmerge',
@@ -53,16 +55,16 @@ module.exports = {
     'gpgtools',
     //'ireadfast',
     'iterm2',
-    'little-snitch',
-    'micro-snitch',
+    // 'little-snitch',
+    // 'micro-snitch',
     //'macvim',
     'sizeup',
     //'sketchup',
     'slack',
     'the-unarchiver',
     //'torbrowser',
-    //'transmission',
-    //'vlc',
+    'transmission',
+    'vlc',
     'xquartz'
   ],
   gem: [
